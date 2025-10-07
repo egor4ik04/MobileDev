@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Characters>
+    <Character name="MrDeepStone" level="35">
+        <Equipment>
+            <Armor part="Body" type="Iron" defense="15" set="Iron Armor"/>
+            <Armor part="Helmet" type="Gold" defense="12" set="Golden Helmet"/>
+            <Armor part="Legs" type="None" defense="0" set="None"/>
+            <Weapon type="Sword" name="Gold Broadsword" damage="15"/>
+            <Tool type="Pickaxe" name="Nightmare Pickaxe" power="65%"/>
+            <Accessory name="Cloud in a Bottle" tier="1"/>
+            <Accessory name="Hermes Boots" tier="1"/>
+        </Equipment>
+        
+        <Inventory>
+            <Item name="Healing Potion" quantity="15" tier="Lesser"/>
+            <Item name="Mana Potion" quantity="10" tier="Lesser"/>
+            <Item name="Gel" quantity="45" type="Material"/>
+            <Item name="Copper Ore" quantity="32" type="Material"/>
+            <Item name="Stone" quantity="58" type="Material"/>
+        </Inventory>
+        
+        <Stats>
+            <Health max="200" current="180"/>
+            <Mana max="100" current="100"/>
+        </Stats>
+
+        <Buffs></Buffs>
+        
+        <Progression>
+            <Boss name="Eye of Cthulhu" defeated="true"/>
+            <Boss name="Eater of Worlds" defeated="true"/>
+            <Boss name="Skeletron" defeated="false"/>
+        </Progression>
+    </Character>
+
+    <Character name="Woody" level="28">
+        <Equipment>
+            <Armor part="Body" type="Wood" defense="8" set="Wood Armor"/>
+            <Armor part="Helmet" type="Wood" defense="5" set="Wood Armor"/>
+            <Armor part="Legs" type="Wood" defense="6" set="Wood Armor"/>
+            <Weapon type="Axe" name="Copper Axe" damage="9"/>
+            <Tool type="Axe" name="War Axe" power="55%"/>
+            <Accessory name="Aglet" tier="1"/>
+            <Accessory name="Climbing Claws" tier="1"/>
+        </Equipment>
+        
+        <Inventory>
+            <Item name="Healing Potion" quantity="8" tier="Lesser"/>
+            <Item name="Wood" quantity="120" type="Material"/>
+            <Item name="Carrot" quantity="25" type="Material"/>
+            <Item name="Seed" quantity="18" type="Material"/>
+        </Inventory>
+        
+        <Stats>
+            <Health max="160" current="160"/>
+            <Mana max="120" current="120"/>
+        </Stats>
+        
+        <Buffs>
+            <Buff name="Pants of Ents" duration="infinite" effect="+2 defense near trees" source="Wood Armor Set"/>
+        </Buffs>
+
+        <Progression>
+            <Boss name="Eye of Cthulhu" defeated="true"/>
+            <Boss name="Eater of Worlds" defeated="false"/>
+            <Boss name="Skeletron" defeated="false"/>
+        </Progression>
+    </Character>
+</Characters>
