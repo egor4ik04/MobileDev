@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="app_header">Editor Lab3</string>
+    <string name="edit_text_hint">Type any text here</string>
+    <string name="set_bold_text_button">Bold</string>
+    <string name="setItalic_text_button">Italic</string>
+    <string name="minus_text_size_button">-</string>
+    <string name="plus_text_size_button">+</string>
+    <string name="text_size_label">Text Size:</string>
+    <string name="sans_serif_font_family">SansSerif</string>
+    <string name="serif_font_family">Serif</string>
+    <string name="monospace_font_family">Monospace</string>
+</resources>

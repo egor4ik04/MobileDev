@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/headerConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/defaultActive"
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/headerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_header"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/editTextView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/edit_text_hint"
+        android:autofillHints="test"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerConstraintLayout" />
+
+    <ToggleButton
+        android:id="@+id/boldButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/defaultInactive"
+        android:textColor="#FFFFFF"
+        android:textOff="@string/set_bold_text_button"
+        android:textOn="@string/set_bold_text_button"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextView" />
+
+    <ToggleButton
+        android:id="@+id/italicButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/defaultInactive"
+        android:textColor="#FFFFFF"
+        android:textOff="@string/setItalic_text_button"
+        android:textOn="@string/setItalic_text_button"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/boldButtonView"
+        app:layout_constraintStart_toEndOf="@+id/boldButtonView"
+        app:layout_constraintTop_toTopOf="@+id/boldButtonView" />
+
+    <Button
+        android:id="@+id/lessTextSizeButtonView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/defaultActive"
+        android:text="@string/minus_text_size_button"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/boldButtonView"
+        app:layout_constraintStart_toEndOf="@+id/italicButtonView"
+        app:layout_constraintTop_toTopOf="@+id/boldButtonView" />
+
+    <Button
+        android:id="@+id/greaterTextSizeButtonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/defaultActive"
+        android:text="@string/plus_text_size_button"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/boldButtonView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lessTextSizeButtonView"
+        app:layout_constraintTop_toTopOf="@+id/boldButtonView" />
+
+    <TextView
+        android:id="@+id/textSizeLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_size_label"
+        app:layout_constraintEnd_toEndOf="@+id/italicButtonView"
+        app:layout_constraintTop_toBottomOf="@+id/boldButtonView" />
+
+    <TextView
+        android:id="@+id/textSizeValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/textSizeLabelTextView"
+        app:layout_constraintStart_toStartOf="@+id/lessTextSizeButtonView"
+        app:layout_constraintTop_toTopOf="@+id/textSizeLabelTextView" />
+
+    <RadioGroup
+        android:id="@+id/fontFamilyRadioGroup"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSizeLabelTextView">
+
+        <RadioButton
+            android:id="@+id/sansSerifRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/sans_serif_font_family" />
+
+        <RadioButton
+            android:id="@+id/serifRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/serif_font_family" />
+
+        <RadioButton
+            android:id="@+id/monospaceRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/monospace_font_family" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/resultTextTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fontFamilyRadioGroup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
