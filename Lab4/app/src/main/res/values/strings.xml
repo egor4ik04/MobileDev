@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="gravity_switch">Horizontal Radio Orientation</string>
+    <string name="cat_option_1">Cat 1</string>
+    <string name="cat_option_2">Cat 2</string>
+    <string name="cat_option_3">Cat 3</string>
+    <string name="cat_option_4">Cat 4</string>
+    <string name="cat_image_cont_desc">Chosen Cat Image</string>
+</resources>
