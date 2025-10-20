@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/color"
+        android:title="@string/color">
+        <menu>
+            <item android:id="@+id/blue"
+                android:title="@string/blue"/>
+            <item android:id="@+id/red"
+                android:title="@string/red"/>
+            <item android:id="@+id/green"
+                android:title="@string/green"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/font"
+        android:title="@string/font">
+        <menu>
+            <item android:id="@+id/font_underdog" android:title="@string/font_underdog" />
+            <item android:id="@+id/font_poiret_one" android:title="@string/font_poiret_one" />
+            <item android:id="@+id/font_kablammo" android:title="@string/font_kablammo" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/exit"
+        android:title="@string/exit"/>
+</menu>

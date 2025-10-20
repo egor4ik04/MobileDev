@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Resources</string>
+    <string name="text">Hello world!</string>
+    <string name="text_land">Alternative</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="color">Color</string>
+    <string name="exit">Exit</string>
+    <string name="font">Font</string>
+    <string name="font_underdog">Underdog</string>
+    <string name="font_poiret_one">Poiret One</string>
+    <string name="font_kablammo">Kablammo</string>
+</resources>

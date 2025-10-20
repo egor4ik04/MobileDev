@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ресурсы</string>
+    <string name="text">Привет, мир!</string>
+    <string name="text_land">Альтернатива</string>
+    <string name="red">Красный</string>
+    <string name="green">Зелёный</string>
+    <string name="blue">Синий</string>
+    <string name="color">Цвет</string>
+    <string name="exit">Выход</string>
+    <string name="font">Шрифт</string>
+    <string name="font_underdog">Underdog</string>
+    <string name="font_poiret_one">Poiret One</string>
+    <string name="font_kablammo">Kablammo</string>
+</resources>

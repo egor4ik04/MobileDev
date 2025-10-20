@@ -1,0 +1,15 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="SpecialText" parent="TextAppearance.AppCompat.Title">
+        <item name="android:fontFamily">@font/underdog</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#CB8547</item>
+        <item name="android:background">#36315C</item>
+    </style>
+</resources>
