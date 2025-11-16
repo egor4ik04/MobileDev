@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <string name="dialog_message">Type any text:</string>
+    <string name="dialog_title">Dialog Fragment</string>
+    <string name="dialog_open_button">Open Dialog</string>
+    <string name="dialog_edittext_hint">Your text</string>
+    <string name="dialog_positive_button">Apply text</string>
+    <string name="dialog_negative_button">Cancel</string>
+    <string name="dialog_neutral_button">Exit app</string>
+</resources>
