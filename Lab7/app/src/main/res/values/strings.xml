@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab7</string>
+    <string name="channel_name">Main notification channel</string>
+    <string name="channel_description">Allows posting all app notifications</string>
+    <string name="notifyButtonText">Notify</string>
+    <string name="notifyEditTextHint">Notification message</string>
+    <string name="start_toast">Hello, toasted user!</string>
+    <string name="notification_title">Important Printout</string>
+    <string name="notification_description_short">This is a special notification addressed to the toasted user.</string>
+    <string name="notification_description_long">This is a special message addressed to the toasted user: \n</string>
+</resources>
