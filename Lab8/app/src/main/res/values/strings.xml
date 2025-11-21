@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab8</string>
+    <string name="phone_number_input_hint">Phone number (like +123456789)</string>
+    <string name="call_button_text">Call</string>
+    <string name="life_cycle_title">Life cycle:\n</string>
+    <string name="nav_button_main">Main</string>
+    <string name="nav_button_contacts">Contacts</string>
+</resources>
